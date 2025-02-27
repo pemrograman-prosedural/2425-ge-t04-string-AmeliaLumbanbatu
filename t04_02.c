@@ -2,17 +2,19 @@
 // 12S24031 - Amelia Renata Lumbanbatu
 
 #include <stdio.h>
+#include <string.h>
 
 int main(int _argv, char **_argc) {
-    char str[60];
-    scanf("%60[^\n]", str);
+  char string[21];
+  scanf("%20[^\n]", string);
 
+  int length = strlen(string);
+  for (int i = 0; i < length; i++) {
+      printf("%03d", string[i]);
+  }
 
-    for(int v = 0; str[v] != '\0'; v++) {
-      printf("%03d", (int)str[v]);
-    }
-
-    printf("\n");
+  printf("013");
 
   return 0;
 }
+
