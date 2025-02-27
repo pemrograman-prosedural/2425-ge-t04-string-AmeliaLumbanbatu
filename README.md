@@ -25,8 +25,9 @@ Selanjutnya, jika digabungkan maka pesan Icarus yang diperoleh adalah ```"cihuy!
 
 #### Example 1
 Input
-```
-089111117044032109101044032038032067
+
+089111117044032109101044032038032067```
+
 
 ```
 Output
